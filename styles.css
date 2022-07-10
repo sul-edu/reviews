@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:2rem;
+    text-align: center;
+    margin-top:4rem;
+}
+.underline{
+    border-bottom:3px solid rgb(75, 202, 230);
+    width:4rem;
+    margin:5px auto;
+}
+.reviews{
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #fbfbfb;
+    border-radius:10px;
+    text-align: center;
+    width:360px;
+    height:400px;
+    margin:2rem auto;
+}
+.img-con{
+    border-radius:50%;
+    position:relative;
+    object-fit: cover;
+    margin:0 auto;
+    margin-bottom:1.5rem;
+    width:130px;
+    height:130px;
+    background-color:rgb(75, 202, 230) ;
+    border:2px solid rgb(75, 202, 230);
+    
+}
+#person-img{
+    width: 120px;    
+    margin-top:0.25rem;
+    display: block;
+    height: 120px;
+    object-fit:cover;
+    border-radius: 50%;
+    position: relative;
+}
+h4{   
+    font-size:1rem;
+    margin-bottom:0.25rem;
+    letter-spacing:3px;
+
+}
+.job{
+    text-transform: uppercase;
+    font-size:0.85rem;
+    color:rgb(75, 202, 230);
+    margin-bottom:0.5rem;
+}
+p{
+    margin-bottom:0.75rem;      
+    font-size:1rem;
+    padding:5px;
+}
+.btn-con{
+    display:flex;        
+    justify-content:center;         
+}
+.prev-btn,
+.next-btn{
+    color:rgb(75, 202, 230);
+    border-style: hidden;
+    background:transparent;
+    border-color:transparent;
+    margin:0 0.5rem;  
+}
+
+.random{
+   width:100px;   
+   text-align: center;  
+   margin:10px auto;
+}
+.random-btn{
+    border:1px solid rgb(75, 202, 230);
+    padding: 2px 5px;
+    color:rgb(75, 202, 230);
+    background-color:rgb(234, 247, 247);
+    border-radius:10px;
+    
+}
